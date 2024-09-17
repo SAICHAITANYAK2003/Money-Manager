@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+
+  justify-content: center;
+
+  height: 100vh;
+}
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100vh;
+}
+.transaction-form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #7e858e;
+  border-radius: 10px;
+  padding: 30px;
+}
+.input {
+  height: 40px;
+  width: 200px;
+  border: 1px solid #d7dfe9;
+  border-radius: 10px;
+  margin: 20px;
+  outline: none;
+  cursor: pointer;
+}
+.button {
+  height: 40px;
+  width: 100px;
+  background-color: #0b69ff;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.form-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.transaction-heading {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.transaction-history {
+  display: flex;
+  flex-direction: column;
+
+  border: 1px solid #7e858e;
+  width: 55vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+.transaction-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #abadaf;
+}

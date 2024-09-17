@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.TransactionItem-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid #abadaf;
+}
+.TransactionItem-image {
+  height: 45px;
+}
+.TransactionItem-button {
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}

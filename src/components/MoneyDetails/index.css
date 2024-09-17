@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.amount-image {
+  height: 50px;
+}
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 30px;
+}
+.balanceAmount-container {
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+}
